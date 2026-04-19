@@ -1,0 +1,27 @@
+0000000000000000000000000000000000000000 206cf4129de13eb5afae16588a23984c39539ebb Your Name <you@example.com> 1776355298 +0200	commit (initial): Initial commit: Portfolio website with Next.js, Tailwind CSS, and shadcn UI
+206cf4129de13eb5afae16588a23984c39539ebb 26beaaef2ed9fb51e0e813cf07d98ab99e30b35e Your Name <you@example.com> 1776355331 +0200	commit (amend): Initial commit: Portfolio website with Next.js, Tailwind CSS, and shadcn UI
+26beaaef2ed9fb51e0e813cf07d98ab99e30b35e 3779a67e57727c89d1fe63258dd1cade042057e8 Your Name <you@example.com> 1776355363 +0200	commit (amend): Initial commit: Portfolio website with Next.js, Tailwind CSS, and shadcn UI
+3779a67e57727c89d1fe63258dd1cade042057e8 3779a67e57727c89d1fe63258dd1cade042057e8 Your Name <you@example.com> 1776355667 +0200	Branch: renamed refs/heads/main to refs/heads/main
+3779a67e57727c89d1fe63258dd1cade042057e8 ac8d31e4520803955699b13a43902f46e366bdad Your Name <you@example.com> 1776356983 +0200	commit: Configure for GitHub Pages with static export
+ac8d31e4520803955699b13a43902f46e366bdad 1411397cc6c435c197ac6a3fab2e557e9c838a05 Your Name <you@example.com> 1776358724 +0200	commit: Fix GitHub Pages deployment workflow
+1411397cc6c435c197ac6a3fab2e557e9c838a05 6a822ac1dccd92469077701df6c9e8825b81ca15 Your Name <you@example.com> 1776359141 +0200	commit: Simplify and fix GitHub Pages workflow
+6a822ac1dccd92469077701df6c9e8825b81ca15 22a455bb927dce59f5455378fc22fcaa738750ce Your Name <you@example.com> 1776359484 +0200	commit: Add package-lock.json for reproducible builds
+22a455bb927dce59f5455378fc22fcaa738750ce 9f2f582ed69f1cd49bab036c113ac6b8c253952f Your Name <you@example.com> 1776359899 +0200	commit: Fix workflow: use cd for working directory
+9f2f582ed69f1cd49bab036c113ac6b8c253952f a0bc2d5894f12d74607efc69789eee868ad048cd Your Name <you@example.com> 1776360089 +0200	commit: Fix workflow: use defaults for working directory
+a0bc2d5894f12d74607efc69789eee868ad048cd 8802a58d658c490d77e86d737f9f96613bb1b44f Your Name <you@example.com> 1776360403 +0200	commit: Use working-directory instead of npm --prefix
+8802a58d658c490d77e86d737f9f96613bb1b44f 5e4cdec0d3f5d333cfcb1b912403f648e2832466 Your Name <you@example.com> 1776360553 +0200	commit: Update Node.js to v20 and add debugging
+5e4cdec0d3f5d333cfcb1b912403f648e2832466 17a448dfc014345c7ebaac2300cc9bd1c186a637 Your Name <you@example.com> 1776360654 +0200	commit: Add npm cache and clean up debug steps
+17a448dfc014345c7ebaac2300cc9bd1c186a637 1a895853d8d4577aa8c4f38d31bb5a146052db5a Your Name <you@example.com> 1776363068 +0200	commit: Add site building files
+1a895853d8d4577aa8c4f38d31bb5a146052db5a 868c38a48b43378f42abc38cd6b6a66a87e9862e Your Name <you@example.com> 1776364748 +0200	commit: Rebrand to LSR Building with full site rebuild
+868c38a48b43378f42abc38cd6b6a66a87e9862e 3665e7f828c658670c1222bb7a29e08407ad4358 Your Name <you@example.com> 1776366344 +0200	commit: Add GitHub Pages deployment workflow
+3665e7f828c658670c1222bb7a29e08407ad4358 c0a2e3759bd6dec3cfd8db7d3d03ebb8316320f1 Your Name <you@example.com> 1776366937 +0200	commit: Final LSR Building site - ready for deployment
+c0a2e3759bd6dec3cfd8db7d3d03ebb8316320f1 e811ac0ad34ef83887f30f1d82b0b032c88c9472 Your Name <you@example.com> 1776367830 +0200	commit: fix: remove nested .github folder and rebuild for GitHub Pages deployment
+e811ac0ad34ef83887f30f1d82b0b032c88c9472 c8c4f520a3ad259cf632131027e2b4bdbd4a2234 Your Name <you@example.com> 1776368086 +0200	commit: Update basePath to /LSRBuilding (capital LSR)
+c8c4f520a3ad259cf632131027e2b4bdbd4a2234 651a007ac0ba65e51b969994228f9dd59e893036 Your Name <you@example.com> 1776415498 +0200	commit: Restore original email (info@lsrbuilding.be) and finalize contact form
+651a007ac0ba65e51b969994228f9dd59e893036 d31c7e5f4321573e2c8dd0dc7fa91a1b8bce82bb Your Name <you@example.com> 1776415607 +0200	commit: Add GitHub Pages deployment with basePath configuration
+d31c7e5f4321573e2c8dd0dc7fa91a1b8bce82bb 5cb342dc1f50193bcdec4e90281185ce12e8eb98 Your Name <you@example.com> 1776503049 +0200	commit: Deploy V2 (Conversion Optimized) to staging
+5cb342dc1f50193bcdec4e90281185ce12e8eb98 bb8918ab4ad74d0b2ea2839cddf88789393a9f3e Your Name <you@example.com> 1776503606 +0200	commit: fix: Correct V2 basePath for staging deployment
+bb8918ab4ad74d0b2ea2839cddf88789393a9f3e ce0a72b72b18b0ff7b167439ca68717cab8a0ec6 Your Name <you@example.com> 1776503869 +0200	commit: fix: Correct GitHub Pages deployment workflow for V1 and V2
+ce0a72b72b18b0ff7b167439ca68717cab8a0ec6 d6dbf191fcbf94f3e37c266cbe5645b25366d907 Your Name <you@example.com> 1776504149 +0200	commit: fix: Simplify deploy workflow - explicit basePaths for both V1 and V2
+d6dbf191fcbf94f3e37c266cbe5645b25366d907 1e4b4ed8967a29e3fac07c2b5b6e6371fa6a76de Your Name <you@example.com> 1776504395 +0200	commit: add: V2 standalone deployment config (Vercel/GitHub Pages)
+1e4b4ed8967a29e3fac07c2b5b6e6371fa6a76de 0f5d6188caca88355ad320250eaf64fef270ca4a Your Name <you@example.com> 1776515210 +0200	commit: Fix: Simplify deploy workflow to V1 only (remove broken V2 build)

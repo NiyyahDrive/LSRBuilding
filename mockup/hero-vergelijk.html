@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>LSR Building — Hero vergelijking V1 vs V1.5</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink-50:#F7F7F5; --ink-100:#EDECE8; --ink-300:#B8B5AC; --ink-600:#5C5A54; --ink-900:#1A1A18; --accent:#0B3B3C; --accent-soft:#C6A664; }
+  .font-display { font-family: 'Fraunces', Georgia, serif; font-variation-settings: "opsz" 144; }
+  .font-sans    { font-family: 'Inter', system-ui, sans-serif; }
+  .bg-ink-50 { background: var(--ink-50); }
+  .bg-ink-900 { background: var(--ink-900); }
+  .text-ink-50 { color: var(--ink-50); }
+  .text-ink-100 { color: var(--ink-100); }
+  .text-ink-300 { color: var(--ink-300); }
+  .text-ink-600 { color: var(--ink-600); }
+  .text-ink-900 { color: var(--ink-900); }
+  .border-ink-100 { border-color: var(--ink-100); }
+  .border-ink-900 { border-color: var(--ink-900); }
+  .bg-accent { background: var(--accent); }
+  .text-accent { color: var(--accent); }
+  .border-accent { border-color: var(--accent); }
+  .hover\:bg-accent:hover { background: var(--accent); }
+  .hover\:text-accent:hover { color: var(--accent); }
+  .hover\:border-accent:hover { border-color: var(--accent); }
+  .tracking-tightest { letter-spacing: -0.04em; }
+  .tracking-eyebrow { letter-spacing: 0.22em; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', system-ui, sans-serif; }
+
+  /* Label bar voor de preview */
+  .section-label {
+    position: sticky; top: 0; z-index: 20;
+    backdrop-filter: saturate(1.2) blur(8px);
+    -webkit-backdrop-filter: saturate(1.2) blur(8px);
+  }
+</style>
+</head>
+<body class="bg-neutral-200">
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- LABEL: VOOR                                                    -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section-label bg-red-50/90 border-y border-red-200 px-6 py-3">
+  <div class="max-w-6xl mx-auto flex items-center justify-between text-xs font-semibold tracking-widest uppercase text-red-700">
+    <span>▼ VOOR — huidige V1 hero (zoals live op GitHub Pages)</span>
+    <span>slate-only · Inter bold · symmetrisch</span>
+  </div>
+</div>
+
+<!-- ─── V1 HERO (exact reproductie van HeroSection.tsx) ─── -->
+<section class="bg-white text-slate-900">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-2 bg-slate-100 border border-slate-200 text-slate-600 text-xs font-semibold tracking-widest uppercase px-3 py-1.5 rounded-full mb-8">
+        <span class="w-1.5 h-1.5 rounded-full bg-slate-400 animate-pulse"></span>
+        Actief in België
+      </div>
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-6 text-slate-900">
+        Uw bouwproject.<br><span class="text-slate-700">Onze regie.</span>
+      </h1>
+      <p class="text-lg md:text-xl text-slate-600 leading-relaxed mb-10 max-w-2xl">
+        LSR Building combineert technisch vakmanschap met zakelijke efficiëntie.
+        Wij zorgen voor een vlekkeloze uitvoering — van de eerste schets
+        tot de definitieve oplevering.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 mb-16">
+        <a href="#" class="inline-flex items-center justify-center gap-2 bg-slate-900 text-white px-8 py-3.5 rounded-lg font-semibold hover:bg-slate-800 transition text-sm">
+          Offerte Aanvragen
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+        <a href="#" class="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 px-8 py-3.5 rounded-lg font-semibold hover:border-slate-400 hover:text-slate-900 transition text-sm">
+          Onze diensten
+        </a>
+      </div>
+      <div class="border-t border-slate-200 pt-8 grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div><p class="text-slate-900 font-semibold text-sm">10+ jaar ervaring</p><p class="text-slate-500 text-xs mt-0.5">Palestina &amp; België</p></div>
+        <div><p class="text-slate-900 font-semibold text-sm">VOL VCA</p><p class="text-slate-500 text-xs mt-0.5">Veiligheidscertificaat</p></div>
+        <div><p class="text-slate-900 font-semibold text-sm">Dethier · Verwater · Van Laere</p><p class="text-slate-500 text-xs mt-0.5">Referentieprojecten</p></div>
+        <div><p class="text-slate-900 font-semibold text-sm">2 Bachelors</p><p class="text-slate-500 text-xs mt-0.5">Engineering &amp; Bedrijfskunde</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- LABEL: NA                                                      -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="section-label bg-emerald-50/90 border-y border-emerald-200 px-6 py-3">
+  <div class="max-w-6xl mx-auto flex items-center justify-between text-xs font-semibold tracking-widest uppercase text-emerald-800">
+    <span>▼ NA — voorstel V1.5 hero (editorial · serif display · accent)</span>
+    <span>warm wit · Fraunces light · 8/4 grid · teal accent</span>
+  </div>
+</div>
+
+<!-- ─── V1.5 HERO (voorstel) ─── -->
+<section class="relative bg-ink-50 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-12 pt-32 pb-40 lg:pt-44 lg:pb-56">
+    <div class="grid grid-cols-12 gap-8 items-end">
+
+      <!-- Left — copy -->
+      <div class="col-span-12 lg:col-span-8">
+        <p class="font-sans text-xs font-medium uppercase tracking-eyebrow text-ink-600 mb-10 flex items-center">
+          <span class="inline-block w-8 h-px bg-accent align-middle mr-3"></span>
+          LSR Building — Brecht / Antwerpen
+        </p>
+
+        <h1 class="font-display font-light text-ink-900 text-5xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tightest mb-10">
+          Uw bouwproject.<br>
+          <span class="italic text-accent" style="font-weight:300">Onze regie.</span>
+        </h1>
+
+        <p class="font-sans text-lg md:text-xl text-ink-600 leading-relaxed max-w-2xl mb-14" style="font-weight:400">
+          Projectcoördinatie waar civiele techniek en bedrijfskunde
+          samenkomen. Gebouwd op tien jaar ervaring, geleid door
+          ingenieur Mustafa Alrubaei.
+        </p>
+
+        <div class="flex flex-wrap gap-8 items-center">
+          <a href="#" class="group inline-flex items-center gap-3 bg-ink-900 text-ink-50 px-7 py-4 text-sm font-medium tracking-wide hover:bg-accent transition-colors duration-500">
+            <span>Offerte aanvragen</span>
+            <span class="inline-block transition-transform duration-500 group-hover:translate-x-1">→</span>
+          </a>
+          <a href="#" class="group text-sm font-medium text-ink-900 relative pb-1">
+            <span>Onze diensten bekijken</span>
+            <span class="absolute left-0 bottom-0 h-px w-full bg-ink-900"></span>
+            <span class="absolute left-0 bottom-0 h-px w-0 bg-accent group-hover:w-full transition-all duration-500"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right — vertical trust stack -->
+      <aside class="col-span-12 lg:col-span-4 lg:pl-12 lg:border-l border-ink-100">
+        <ul class="space-y-8">
+          <li>
+            <div class="font-display text-4xl text-ink-900 font-light leading-none mb-1 tracking-tightest">10+</div>
+            <div class="text-sm text-ink-600 leading-snug">jaar ervaring in België &amp; Palestina</div>
+          </li>
+          <li>
+            <div class="font-display text-4xl text-ink-900 font-light leading-none mb-1 tracking-tightest">VOL VCA</div>
+            <div class="text-sm text-ink-600 leading-snug">gecertificeerd veiligheidssupervisor</div>
+          </li>
+          <li>
+            <div class="font-display text-4xl text-ink-900 font-light leading-none mb-1 tracking-tightest">2×</div>
+            <div class="text-sm text-ink-600 leading-snug">bachelor — civiele techniek &amp; bedrijfskunde</div>
+          </li>
+          <li>
+            <div class="font-display text-4xl text-ink-900 font-light leading-none mb-1 tracking-tightest">3</div>
+            <div class="text-sm text-ink-600 leading-snug">referenties: Dethier · Verwater · Van Laere</div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- Onderste meta-regel: subtiele brand-signature -->
+    <div class="mt-28 pt-8 border-t border-ink-100 flex flex-wrap justify-between items-center text-xs text-ink-600 font-sans">
+      <span class="uppercase tracking-eyebrow">Civiele techniek · Renovatie · Projectcoördinatie</span>
+      <span>Sinds 2016 · BE 0XXX.XXX.XXX</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- DECODER: wat is er veranderd                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<div class="bg-neutral-900 text-neutral-100 px-6 py-16">
+  <div class="max-w-6xl mx-auto">
+    <p class="text-xs uppercase tracking-[0.22em] text-emerald-400 mb-4">Decoder · waar zit het verschil</p>
+    <h2 class="text-2xl font-semibold mb-8">De 6 signalen die "duurder" maken</h2>
+    <div class="grid md:grid-cols-2 gap-x-12 gap-y-6 text-sm leading-relaxed">
+      <div>
+        <span class="text-emerald-400 font-semibold">01 · Typografie</span>
+        <p class="text-neutral-300 mt-1">Van Inter-bold naar Fraunces-light op display. Dunne serif = autoriteit, niet SaaS.</p>
+      </div>
+      <div>
+        <span class="text-emerald-400 font-semibold">02 · Kleur</span>
+        <p class="text-neutral-300 mt-1">Van 100% slate-grijs naar warm-wit (#F7F7F5) + bijna-zwart (#1A1A18) + één accent (teal #0B3B3C).</p>
+      </div>
+      <div>
+        <span class="text-emerald-400 font-semibold">03 · Layout</span>
+        <p class="text-neutral-300 mt-1">Van gecentreerd blok naar asymmetrisch 8/4-grid met verticale scheidslijn.</p>
+      </div>
+      <div>
+        <span class="text-emerald-400 font-semibold">04 · Trust-presentatie</span>
+        <p class="text-neutral-300 mt-1">Van 4-grid mini-cards naar grote cijfers in display-font. Dezelfde data, dubbele impact.</p>
+      </div>
+      <div>
+        <span class="text-emerald-400 font-semibold">05 · Micro-interactie</span>
+        <p class="text-neutral-300 mt-1">Hover: button gaat van zwart → teal (500ms), arrow schuift rechts, text-link krijgt accent-underline die uitrolt. <em>Probeer: hover op de knoppen hierboven.</em></p>
+      </div>
+      <div>
+        <span class="text-emerald-400 font-semibold">06 · Ritme</span>
+        <p class="text-neutral-300 mt-1">Van py-24 naar py-44 op desktop + brand-signature onderaan. Self-assured, niet gehaast.</p>
+      </div>
+    </div>
+    <p class="mt-10 text-xs text-neutral-500">
+      Tip: ga met je cursor over "Offerte aanvragen" en "Onze diensten bekijken" in de NA-versie om de micro-interacties te zien.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>

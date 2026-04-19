@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <!-- Left building -->
+  <path d="M40 138 L40 215 L72 215 L72 126 Z" fill="#1E6091"/>
+  <rect x="48" y="152" width="5" height="5" fill="#F7F7F5"/>
+  <rect x="48" y="180" width="5" height="5" fill="#F7F7F5"/>
+  <rect x="60" y="168" width="5" height="5" fill="#F7F7F5"/>
+  <!-- Roof pitch left -->
+  <path d="M40 138 L72 126 L72 120 L40 132 Z" fill="#1E6091"/>
+
+  <!-- Center building (tallest, pointed) -->
+  <path d="M82 100 L82 215 L138 215 L138 100 L110 80 Z" fill="#1E6091"/>
+  <rect x="92" y="118" width="6" height="6" fill="#F7F7F5"/>
+  <rect x="122" y="118" width="6" height="6" fill="#F7F7F5"/>
+  <rect x="107" y="140" width="6" height="6" fill="#F7F7F5"/>
+  <rect x="92" y="165" width="6" height="6" fill="#F7F7F5"/>
+  <rect x="122" y="165" width="6" height="6" fill="#F7F7F5"/>
+  <rect x="107" y="190" width="6" height="6" fill="#F7F7F5"/>
+
+  <!-- Right building -->
+  <path d="M148 126 L148 215 L180 215 L180 138 Z" fill="#1E6091"/>
+  <rect x="156" y="152" width="5" height="5" fill="#F7F7F5"/>
+  <rect x="168" y="168" width="5" height="5" fill="#F7F7F5"/>
+  <rect x="168" y="192" width="5" height="5" fill="#F7F7F5"/>
+  <!-- Roof pitch right -->
+  <path d="M148 126 L180 138 L180 132 L148 120 Z" fill="#1E6091"/>
+
+  <!-- Base bar -->
+  <rect x="24" y="220" width="172" height="8" fill="#1E6091"/>
+</svg>
