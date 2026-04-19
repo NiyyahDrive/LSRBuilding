@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "DEPLOY_TARGET=ghpages next build",
     "build:ghpages": "DEPLOY_TARGET=ghpages next build",
-    "build:prod": "DEPLOY_TARGET=prod next build",
+    "build:prod": "DEPLOY_TARGET=prod next build && bash scripts/make-htaccess.sh",
     "start": "next start",
     "lint": "eslint",
     "deploy:ghpages": "npm run build:ghpages && gh-pages -d out",
