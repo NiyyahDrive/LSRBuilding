@@ -10,7 +10,7 @@ type FormType = 'offerte' | 'contact';
 // Override via .env.local met: NEXT_PUBLIC_FORM_ENDPOINT=https://formspree.io/f/xxx
 const FORM_ENDPOINT =
   process.env.NEXT_PUBLIC_FORM_ENDPOINT ||
-  'https://formsubmit.co/ajax/info@lsrbuilding.be';
+  'https://formsubmit.co/ajax/info@lsr-building.be';
 
 export default function ContactSection() {
   const { company } = companyData;

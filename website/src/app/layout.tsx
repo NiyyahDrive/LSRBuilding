@@ -21,7 +21,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://lsrbuilding.be"),
+  metadataBase: new URL("https://lsr-building.be"),
   title: {
     default: "LSR Building · Projectcoördinatie & Werfbeheer · Brecht / Antwerpen",
     template: "%s · LSR Building",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "nl_BE",
-    url: "https://lsrbuilding.be",
+    url: "https://lsr-building.be",
     siteName: "LSR Building",
     title: "LSR Building · Projectcoördinatie & Werfbeheer",
     description:

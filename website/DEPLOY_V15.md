@@ -1,6 +1,6 @@
 # LSR Building · deployment guide V1.5
 
-Deze guide dekt beide scenario's: **klant-preview op GitHub Pages** en **productie op je eigen webserver / domein** (bijv. lsrbuilding.be).
+Deze guide dekt beide scenario's: **klant-preview op GitHub Pages** en **productie op je eigen webserver / domein** (bijv. lsr-building.be).
 
 ---
 
@@ -59,7 +59,7 @@ Dit produceert een volledig statische site in `out/` zonder `/LSRBuilding/`-pref
 
 ```bash
 # voorbeeld: rsync naar een Linux-host
-rsync -avz --delete out/ user@server:/var/www/lsrbuilding.be/
+rsync -avz --delete out/ user@server:/var/www/lsr-building.be/
 
 # of FTP:
 # upload alles uit out/ naar public_html/ (of de document root van je host)

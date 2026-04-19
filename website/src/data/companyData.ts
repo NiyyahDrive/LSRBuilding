@@ -2,7 +2,7 @@ export const companyData = {
   company: {
     name: 'LSR Building',
     tagline: 'Projectcoördinatie & Werfbeheer',
-    email: 'info@lsrbuilding.be',
+    email: 'info@lsr-building.be',
     phone: '+32 473 258 539',
     phone2: '+32 492 123 811',
     city: 'Brecht',
