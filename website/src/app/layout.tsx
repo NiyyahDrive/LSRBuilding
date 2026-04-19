@@ -3,6 +3,7 @@ import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { asset } from "@/lib/assetPath";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     title: "LSR Building · Projectcoördinatie & Werfbeheer",
     description:
       "Civiele techniek én bedrijfskunde in één partij. Projectcoördinatie, veiligheidssupervisie en renovatie voor industriële en residentiële bouwprojecten.",
-    images: [{ url: "/logo-full.svg", width: 240, height: 340, alt: "LSR Building" }],
+    images: [{ url: asset("/logo-full.svg"), width: 240, height: 340, alt: "LSR Building" }],
   },
   twitter: {
     card: "summary",
@@ -61,9 +62,9 @@ export const metadata: Metadata = {
       "Civiele techniek én bedrijfskunde in één partij. VOL VCA. Brecht / Antwerpen.",
   },
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: asset("/logo.svg"),
+    shortcut: asset("/logo.svg"),
+    apple: asset("/logo.svg"),
   },
 };
 

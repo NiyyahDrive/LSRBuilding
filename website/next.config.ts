@@ -7,12 +7,21 @@ import type { NextConfig } from "next";
 const target = process.env.DEPLOY_TARGET ?? "ghpages";
 const basePath = target === "prod" ? "" : "/LSRBuilding";
 
+// We exposen basePath als public env var zodat componenten handmatig
+// asset-paden kunnen prefixen (next/image doet dit niet automatisch
+// in combinatie met output: "export" + unoptimized).
+process.env.NEXT_PUBLIC_BASE_PATH = basePath;
+
 const nextConfig: NextConfig = {
   basePath,
+  assetPrefix: basePath || undefined,
   output: "export",
   trailingSlash: true,
   images: {
     unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 

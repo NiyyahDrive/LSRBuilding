@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { companyData } from '@/data/companyData';
+import { asset } from '@/lib/assetPath';
 
 export default function Footer() {
   const { company } = companyData;
@@ -14,7 +15,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-5">
               <Image
-                src="/logo.svg"
+                src={asset('/logo.svg')}
                 alt="LSR Building"
                 width={40}
                 height={40}

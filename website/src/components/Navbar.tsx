@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { asset } from '@/lib/assetPath';
 
 const links = [
   { href: '#over-ons', label: 'Over Ons' },
@@ -35,7 +36,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
             <Image
-              src="/logo.svg"
+              src={asset('/logo.svg')}
               alt="LSR Building"
               width={40}
               height={40}
